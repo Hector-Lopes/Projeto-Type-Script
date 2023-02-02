@@ -1,0 +1,9 @@
+{
+"compilerOptions": {
+    "outDir": "Public/JS",
+    "target": "ES6"
+
+},
+"include": ["src/**/*"]
+
+}
