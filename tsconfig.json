@@ -2,7 +2,8 @@
 "compilerOptions": {
     "outDir": "Public/JS",
     "target": "ES6",
-"noEmitOnError": true
+"noEmitOnError": true,
+"noImplicitAny": true
 },
 "include": ["src/**/*"]
 

@@ -13,7 +13,5 @@ export class Produto {
     get valor() {
         return this._valor;
     }
-    get volume() {
-        return this._quantidade * this._valor;
-    }
 }
+alert("ola");

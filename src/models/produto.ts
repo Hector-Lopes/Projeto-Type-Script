@@ -1,27 +1,30 @@
 export class Produto { 
-    private _nome; 
-    private _quantidade; 
-    private _valor; 
+    private _nome :string ; 
+    private _quantidade :number; 
+    private _valor :number; 
  
-    constructor(nome, quantidade, valor) { 
+    constructor(nome :string, quantidade:number, valor:number) { 
        this._nome = nome; 
         this._quantidade = quantidade; 
         this._valor = valor; 
     } 
  
-    get nome() { 
+    get nome() :string { 
         return this._nome; 
     } 
  
-    get quantidade() { 
+    get quantidade():number { 
         return this._quantidade; 
     } 
  
-    get valor() { 
+    get valor() :number { 
         return this._valor; 
     } 
  
-    get volume() { 
-        return this._quantidade * this._valor; 
-    } 
+   
+
+
 }
+
+alert("ola")
+
