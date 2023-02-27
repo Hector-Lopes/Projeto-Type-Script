@@ -26,5 +26,5 @@ export class Produto {
 
 }
 
-alert("ola")
+
 

@@ -1,3 +1,4 @@
+import { Produto } from "../models/produto.js";
 export class ProdutoController {
     constructor() {
         this.nome1 = document.querySelector("#nome");
@@ -5,8 +6,7 @@ export class ProdutoController {
         this.quantidade = document.querySelector("#quantidade");
     }
     salvarprodtuo() {
-        console.log(this.nome1);
-        console.log(this.valor);
-        console.log(this.quantidade);
+        const prodtuo = new Produto(this.nome1.value, parseInt(this.quantidade.value), parseFloat(this.valor.value));
+        console.log(prodtuo);
     }
 }

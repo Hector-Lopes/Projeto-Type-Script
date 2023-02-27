@@ -14,4 +14,3 @@ export class Produto {
         return this._valor;
     }
 }
-alert("ola");
